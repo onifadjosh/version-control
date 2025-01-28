@@ -4,6 +4,12 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
+.version{
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
 .division1{
     background-color: #ffffff;
     padding: 15px 30px;
@@ -85,6 +91,7 @@
     border: 2px solid #ffffff;
     outline: 2px solid #df3130;
 }
+
 .division2{
     margin: 70px 350px 30px;
     background-color: #ffffff;
@@ -98,6 +105,7 @@
     font-size: 50px;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
 }
 .expert{
     font-size: 27px;
@@ -451,5 +459,13 @@ footer{
     
     .expert {
         font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        flex-basis: 80% !important;
+        justify-content: center !important;
     }
 }
